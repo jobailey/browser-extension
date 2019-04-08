@@ -16,7 +16,9 @@ This browser extension is designed for FireFox users who suffer from colorblindn
 - Add functionality beyond 
 
 ## Dependencies
+- (For Firefox) Click **Add-ons**
 - (For Edge) Enable extension developer features in **Extensions**
+- (For Chrome) Search **Extension** in Settings and **Pack extension**
 
 ### Video Summary
-[Cycle 4 - Browser Extension for Colorblindness (cont.)]()
+[Cycle 5 - Extension Troubleshoot](http://youtu.be/o5jGo_j1AtY?hd=1) 
