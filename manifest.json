@@ -1,17 +1,24 @@
 {
   "manifest_version": 1,
-  "name": "Design Change",
-  "version": 1.0,
+  "name": "Scheme Change for Colorblindness",
+  "author": "Jakayla O Bailey",
+  "version": "1.0",
+
+  "description": "Adds accessibility for users affected by red-green colorblindness.",
 
   "background": {
-    "page": ["background.html"],
-    "scripts": ["background.js"]
+    "scripts": ["design.js"],
+    "persistent": false
+  },
+
+  "icons": {
+    "48": "icons/button-48.png",
+    "96": "icons/button-96.png"
   },
 
   "content_scripts":  [
     {
-      "matches": ["*:ccuresearch.coastal.edu/jobailey/csci409sp19/*"],
-      "js": "design.js/"
+      "matches": ["<all_urls>"]
     }
   ]
 }
