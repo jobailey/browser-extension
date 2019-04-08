@@ -2,7 +2,7 @@
   "manifest_version": 1,
   "name": "Scheme Change for Colorblindness",
   "author": "Jakayla O Bailey",
-  "version": "1.0",
+  "version": "2.0",
 
   "description": "Adds accessibility for users affected by red-green colorblindness.",
 
@@ -17,7 +17,7 @@
 
   "content_scripts":  [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://*"],
       "js": ["design.js"]
     }
   ]
