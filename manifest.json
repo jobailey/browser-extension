@@ -8,7 +8,7 @@
 
   "background": {
     "persistent": false,
-    "scripts": "desing.js"
+    "scripts": "design.js"
   },
 
   "icons": {
